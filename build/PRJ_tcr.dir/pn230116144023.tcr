@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/16/2023 14:35:09
+#Project Location: C:/GIThab/LEDarray-controller; Project name: PRJ
+prj_project new -name "PRJ" -impl "impl1" -dev LCMXO2-256HC-4TG100C -synthesis "lse"
+prj_project save
+prj_src add "C:/GIThab/LEDarray-controller/LED_ARRAY_top.v"
+prj_run Synthesis -impl impl1
+#Stop recording: 1/16/2023 14:40:23

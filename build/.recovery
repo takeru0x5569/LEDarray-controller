@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="PRJ" device="LCMXO2-256HC-4TG100C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="LED_ARRAY_top"/>
+        <Source name="../source/LED_ARRAY_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="LED_ARRAY_top"/>
+        </Source>
+        <Source name="../source/TRIGGER_GEN.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../source/SPI_RECEIVER_32BIT.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../source/ENA_REG.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="PRJ.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="PRJ1.sty"/>
+</BaliProject>
