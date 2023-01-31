@@ -37,6 +37,23 @@ prj_run PAR -impl impl1
 
 
 
+<A name="pn230126190327"></A><B><U><big>pn230126190327</big></U></B>
+#Start recording tcl command: 1/26/2023 13:12:43
+#Project Location: C:/GIThab/LEDarray-controller/build; Project name: PRJ
+prj_project open "C:/GIThab/LEDarray-controller/build/PRJ.ldf"
+prj_src add "C:/GIThab/LEDarray-controller/source/TRIGGER_GEN.v" "C:/GIThab/LEDarray-controller/source/SPI_RECEIVER_32BIT.v"
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_src add "C:/GIThab/LEDarray-controller/source/ENA_REG.v"
+prj_run PAR -impl impl1
+#Stop recording: 1/26/2023 19:03:27
+
+
+
 <BR>
 <BR>
 <BR>

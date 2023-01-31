@@ -1,4 +1,4 @@
-module LED_ARRAY_top
+module LED_ARRAY_MAIN_top
     (input	wire		i_RESET_n
     ,input	wire		i_SPI_CLK		//1MHz = 1us
     ,input	wire		i_SPI_ENA_n		//
@@ -34,7 +34,7 @@ ENA_REG	ENA_REG_inst
     );
 
 //SPI data recever of ESP32 
-    SPI_RECEIVER_32BIT	SPI_RECEIVER_32BIT_inst
+    SPI_RECEIVER_32BIT	SPI_RECEIVER_32BIT
     (.i_clk         (clk)
     ,.i_rst_n       (i_RESET_n)
     ,.i_SPI_CLK     (i_SPI_CLK)	
@@ -44,7 +44,7 @@ ENA_REG	ENA_REG_inst
     ,.o_valid       (receive_ena)
     );
 
-TRIGGER_GEN	TRIGGER_GEN_inst
+TRIGGER_GEN	TRIGGER_GEN
     (.i_clk			    (clk)
     ,.i_rst_n		    (i_RESET_n)	
     ,.i_ena             (ena)

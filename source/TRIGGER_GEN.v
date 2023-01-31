@@ -69,7 +69,7 @@ assign sync_y      = (row_count==5'h1F) ? sync_x : 1'b0;
 
 // seqence counter
     always@(posedge i_clk or negedge i_rst_n)begin
-        if(!i_rst_n)                seq_count   <= 4'd0;
+        if(!i_rst_n)                seq_count   <= 4'hF;
         else if(sync_x)             seq_count   <= 4'd0;
         else if(seq_count==4'hF)    seq_count   <= seq_count;
         else                        seq_count   <= seq_count + 4'd1;

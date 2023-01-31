@@ -5,12 +5,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb 
 Top level modules:
 	SPI_RECEIVER_32BIT
 
-} {} {}} C:/GIThab/LEDarray-controller/tb/LED_ARRAY_tb.v {1 {vlog -work work -stats=none C:/GIThab/LEDarray-controller/tb/LED_ARRAY_tb.v
+} {} {}} C:/GIThab/LEDarray-controller/source/LED_ARRAY_MAIN_top.v {1 {vlog -work work -stats=none C:/GIThab/LEDarray-controller/source/LED_ARRAY_MAIN_top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
--- Compiling module LED_ARRAY_tb
+-- Compiling module LED_ARRAY_MAIN_top
 
 Top level modules:
-	LED_ARRAY_tb
+	LED_ARRAY_MAIN_top
+
+} {} {}} C:/GIThab/LEDarray-controller/source/TRIGGER_GEN.v {1 {vlog -work work -stats=none C:/GIThab/LEDarray-controller/source/TRIGGER_GEN.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module TRIGGER_GEN
+
+Top level modules:
+	TRIGGER_GEN
 
 } {} {}} C:/GIThab/LEDarray-controller/source/ENA_REG.v {1 {vlog -work work -stats=none C:/GIThab/LEDarray-controller/source/ENA_REG.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
@@ -25,12 +32,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb 
 
 Top level modules:
 	OSCH
-
-} {} {}} C:/GIThab/LEDarray-controller/source/LED_ARRAY_top.v {1 {vlog -work work -stats=none C:/GIThab/LEDarray-controller/source/LED_ARRAY_top.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
--- Compiling module LED_ARRAY_top
-
-Top level modules:
-	LED_ARRAY_top
 
 } {} {}}

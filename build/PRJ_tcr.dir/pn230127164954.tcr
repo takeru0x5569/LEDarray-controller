@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/27/2023 16:44:39
+#Project Location: C:/GIThab/LEDarray-controller/build; Project name: PRJ
+prj_project open "C:/GIThab/LEDarray-controller/build/PRJ.ldf"
+prj_run PAR -impl impl1
+prj_run PAR -impl impl1
+prj_project close
+#Stop recording: 1/27/2023 16:49:54
