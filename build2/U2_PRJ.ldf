@@ -2,7 +2,13 @@
 <BaliProject version="3.2" title="U2_PRJ" device="LCMXO2-256HC-4TG100C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
-        <Options/>
+        <Options def_top="LED_ARRAY_SUB_top"/>
+        <Source name="../source/LED_ARRAY_SUB_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="LED_ARRAY_SUB_top"/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
         <Source name="U2_PRJ.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>

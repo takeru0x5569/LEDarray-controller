@@ -32,7 +32,6 @@ task SPI_TASK(input[BIT_WIDTH-1:0] data);
     end
 endtask
 
-
 LED_ARRAY_MAIN_top   LED_ARRAY_MAIN_top
 	(.i_RESET_n     (i_RESET_n      )
 	,.i_SPI_CLK     (i_SPI_CLK      )
@@ -55,8 +54,13 @@ initial begin
     #500;
     i_RESET_n =1;
     #1000;
-    SPI_TASK({8'b0000_0011,24'h00_01_00});
-    #30000;
+    SPI_TASK({8'b1000_0000,24'h00_01_00});
+    #5000;
+    i_ENA_p =1;
+    #300000;
+    SPI_TASK({8'b0000_0000,24'h00_01_00});
+    i_ENA_p =0;
+    #200000;
     i_ENA_p =1;
 
 end

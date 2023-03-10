@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell LED_ARRAY_SUB_top
+   Instance path: LED_ARRAY_SUB_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      49.00        100.0
+                                  LUT4	      64.00        100.0
+                                 IOBUF	         35        100.0
+                                PFUREG	         67        100.0

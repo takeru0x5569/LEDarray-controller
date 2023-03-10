@@ -1,0 +1,16 @@
+----------------------------------------------------------------------
+Report for cell LED_ARRAY_SUB_top.TECH
+Register bits:  67 of 424 (15.802%)
+I/O cells:      35
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3IX        31          100.0
+                            FD1P3JX         1          100.0
+                            FD1S3AX         4          100.0
+                            FD1S3IX        31          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4        72          100.0
+                                 OB        32          100.0
+                               OSCH         1          100.0
+                              TOTAL       176

@@ -1,0 +1,43 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Mar 10 13:26:36 2023 *
+NOTE DESIGN NAME: LED_ARRAY_SUB_top *
+NOTE DEVICE NAME: LCMXO2-256HC-4TQFP100 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS o_LED_SINK[14] : 27 : out *
+NOTE PINS o_LED_SINK[15] : 28 : out *
+NOTE PINS o_LED_SINK[16] : 31 : out *
+NOTE PINS o_LED_SINK[17] : 32 : out *
+NOTE PINS o_LED_SINK[18] : 34 : out *
+NOTE PINS o_LED_SINK[19] : 35 : out *
+NOTE PINS o_LED_SINK[20] : 38 : out *
+NOTE PINS o_LED_SINK[21] : 39 : out *
+NOTE PINS o_LED_SINK[22] : 40 : out *
+NOTE PINS o_LED_SINK[23] : 41 : out *
+NOTE PINS o_LED_SINK[24] : 42 : out *
+NOTE PINS o_LED_SINK[13] : 25 : out *
+NOTE PINS o_LED_SINK[12] : 24 : out *
+NOTE PINS o_LED_SINK[11] : 21 : out *
+NOTE PINS o_LED_SINK[10] : 20 : out *
+NOTE PINS o_LED_SINK[9] : 17 : out *
+NOTE PINS o_LED_SINK[8] : 16 : out *
+NOTE PINS o_LED_SINK[7] : 13 : out *
+NOTE PINS o_LED_SINK[6] : 12 : out *
+NOTE PINS o_LED_SINK[25] : 43 : out *
+NOTE PINS o_LED_SINK[26] : 48 : out *
+NOTE PINS o_LED_SINK[5] : 8 : out *
+NOTE PINS o_LED_SINK[27] : 49 : out *
+NOTE PINS o_LED_SINK[4] : 7 : out *
+NOTE PINS o_LED_SINK[3] : 4 : out *
+NOTE PINS o_LED_SINK[28] : 51 : out *
+NOTE PINS o_LED_SINK[2] : 3 : out *
+NOTE PINS o_LED_SINK[29] : 52 : out *
+NOTE PINS o_LED_SINK[1] : 2 : out *
+NOTE PINS i_HEAD_FLAG : 71 : in *
+NOTE PINS i_TOGGLE_SYNC : 70 : in *
+NOTE PINS o_LED_SINK[0] : 1 : out *
+NOTE PINS i_RESET_n : 62 : in *
+NOTE PINS o_LED_SINK[30] : 53 : out *
+NOTE PINS o_LED_SINK[31] : 54 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

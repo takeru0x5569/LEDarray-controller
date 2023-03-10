@@ -1,0 +1,24 @@
+#Start recording tcl command: 3/2/2023 14:20:08
+#Project Location: C:/GIThab/LEDarray-controller/build2; Project name: U2_PRJ
+C:/GIThab/LEDarray-controller/build
+PRJ
+#Start recording tcl command: 3/2/2023 14:27:28
+#Project Location: C:/GIThab/LEDarray-controller/build; Project name: PRJ
+prj_project open "C:/GIThab/LEDarray-controller/build2/U2_PRJ.ldf"
+pgr_project close
+prj_src add "C:/GIThab/LEDarray-controller/source/LED_ARRAY_SUB_top.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+pgr_project save "C:/GIThab/LEDarray-controller/build2/impl1/impl1.xcf"
+prj_src add -exclude "C:/GIThab/LEDarray-controller/build2/impl1/impl1.xcf"
+prj_src enable "C:/GIThab/LEDarray-controller/build2/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "C:/GIThab/LEDarray-controller/build2/impl1/impl1.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/GIThab/LEDarray-controller/build/PRJ.ldf"
+pgr_project close
+#Stop recording: 3/2/2023 14:27:28
